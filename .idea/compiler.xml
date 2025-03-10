@@ -2,6 +2,9 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="temaLab3" target="17" />
+      <module name="temaLab3.main" target="17" />
+      <module name="temaLab3.test" target="17" />
       <module name="untitled" target="17" />
       <module name="untitled.main" target="17" />
       <module name="untitled.test" target="17" />
