@@ -49,8 +49,31 @@ public class CarsDBRepository implements CarRepository{
 
     @Override
     public List<Car> findBetweenYears(int min, int max) {
-	//to do
-        return null;
+        List<Car> cars = new ArrayList<>();
+        String sql = "SELECT * FROM cars WHERE year BETWEEN ? AND ?";
+        try (
+                Connection connection = dbUtils.getConnection();
+                PreparedStatement preparedStatement = connection.prepareStatement(sql);
+        ) {
+            preparedStatement.setInt(1, min);
+            preparedStatement.setInt(2, max);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            while (resultSet.next()) {
+                int id = resultSet.getInt("id");
+                String manu = resultSet.getString("manufacturer");
+                String model = resultSet.getString("model");
+                int year = resultSet.getInt("year");
+
+                Car car = new Car(manu, model, year);
+                car.setId(id);
+                cars.add(car);
+            }
+
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return cars;
     }
 
     @Override
@@ -73,7 +96,20 @@ public class CarsDBRepository implements CarRepository{
 
     @Override
     public void update(Integer integer, Car elem) {
-      //to do
+        String sql = "UPDATE cars SET manufacturer=?, model=?, year=? WHERE id=?";
+        try (
+                Connection connection = dbUtils.getConnection();
+                PreparedStatement preparedStatement = connection.prepareStatement(sql);
+        ) {
+            preparedStatement.setString(1, elem.getManufacturer());
+            preparedStatement.setString(2, elem.getModel());
+            preparedStatement.setInt(3, elem.getYear());
+            preparedStatement.setInt(4, integer);
+
+            preparedStatement.executeUpdate();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
 
     @Override

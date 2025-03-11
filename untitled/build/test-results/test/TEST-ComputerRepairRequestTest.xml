@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ComputerRepairRequestTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-03-09T20:36:39" hostname="DESKTOP-4MQK4JG" time="0.025">
+<testsuite name="ComputerRepairRequestTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-03-11T16:49:12" hostname="DESKTOP-4MQK4JG" time="0.024">
   <properties/>
   <testcase name="First Test" classname="ComputerRepairRequestTest" time="0.022"/>
   <testcase name="Second Test" classname="ComputerRepairRequestTest" time="0.001"/>
