@@ -96,7 +96,7 @@ public class CarsDBRepository implements CarRepository{
 
     @Override
     public void update(Integer integer, Car elem) {
-        String sql = "UPDATE cars SET manufacturer=?, model=?, year=? WHERE id=?";
+        String sql = "UPDATE Masini SET manufacturer=?, model=?, year=? WHERE id=?";
         try (
                 Connection connection = dbUtils.getConnection();
                 PreparedStatement preparedStatement = connection.prepareStatement(sql);

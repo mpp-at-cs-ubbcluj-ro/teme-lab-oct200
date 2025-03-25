@@ -73,3 +73,111 @@
 11 Mar 2025 19:28:34,511 TRACE JdbcUtils 46 getConnection - Enter
 11 Mar 2025 19:28:34,511 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6a84a97d)
 11 Mar 2025 19:28:34,512 TRACE CarsDBRepository 45 findByManufacturer - Exit
+18 Mar 2025 20:07:59,259 INFO  CarsDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/Semestrul 4/MPP/Tema1-buna/temaLab3/cars.db} 
+18 Mar 2025 20:07:59,289 TRACE CarsDBRepository 81 add - Enter saving task () 
+18 Mar 2025 20:07:59,289 TRACE JdbcUtils 46 getConnection - Enter
+18 Mar 2025 20:07:59,290 TRACE JdbcUtils 23 getNewConnection - Enter
+18 Mar 2025 20:07:59,290 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Semestrul 4/MPP/Tema1-buna/temaLab3/cars.db
+18 Mar 2025 20:07:59,290 INFO  JdbcUtils 29 getNewConnection - user: null
+18 Mar 2025 20:07:59,290 INFO  JdbcUtils 30 getNewConnection - pass: null
+18 Mar 2025 20:07:59,679 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6a84a97d)
+18 Mar 2025 20:07:59,691 TRACE CarsDBRepository 88 add - Saved 1 instances
+18 Mar 2025 20:07:59,693 TRACE CarsDBRepository 94 add - Exit
+18 Mar 2025 20:07:59,694 TRACE CarsDBRepository 117 findAll - Enter
+18 Mar 2025 20:07:59,694 TRACE JdbcUtils 46 getConnection - Enter
+18 Mar 2025 20:07:59,694 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6a84a97d)
+18 Mar 2025 20:07:59,697 TRACE CarsDBRepository 137 findAll - Exit
+18 Mar 2025 20:07:59,703 TRACE CarsDBRepository 24 findByManufacturer - Enter
+18 Mar 2025 20:07:59,703 TRACE JdbcUtils 46 getConnection - Enter
+18 Mar 2025 20:07:59,703 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6a84a97d)
+18 Mar 2025 20:07:59,704 TRACE CarsDBRepository 45 findByManufacturer - Exit
+18 Mar 2025 20:08:04,265 INFO  CarsDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/Semestrul 4/MPP/Tema1-buna/temaLab3/cars.db} 
+18 Mar 2025 20:08:04,270 TRACE CarsDBRepository 81 add - Enter saving task () 
+18 Mar 2025 20:08:04,270 TRACE JdbcUtils 46 getConnection - Enter
+18 Mar 2025 20:08:04,271 TRACE JdbcUtils 23 getNewConnection - Enter
+18 Mar 2025 20:08:04,271 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Semestrul 4/MPP/Tema1-buna/temaLab3/cars.db
+18 Mar 2025 20:08:04,271 INFO  JdbcUtils 29 getNewConnection - user: null
+18 Mar 2025 20:08:04,271 INFO  JdbcUtils 30 getNewConnection - pass: null
+18 Mar 2025 20:08:04,501 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6a84a97d)
+18 Mar 2025 20:08:04,515 TRACE CarsDBRepository 88 add - Saved 1 instances
+18 Mar 2025 20:08:04,516 TRACE CarsDBRepository 94 add - Exit
+18 Mar 2025 20:08:04,516 TRACE CarsDBRepository 117 findAll - Enter
+18 Mar 2025 20:08:04,517 TRACE JdbcUtils 46 getConnection - Enter
+18 Mar 2025 20:08:04,517 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6a84a97d)
+18 Mar 2025 20:08:04,521 TRACE CarsDBRepository 137 findAll - Exit
+18 Mar 2025 20:08:04,527 TRACE CarsDBRepository 24 findByManufacturer - Enter
+18 Mar 2025 20:08:04,527 TRACE JdbcUtils 46 getConnection - Enter
+18 Mar 2025 20:08:04,527 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6a84a97d)
+18 Mar 2025 20:08:04,527 TRACE CarsDBRepository 45 findByManufacturer - Exit
+18 Mar 2025 20:08:55,790 INFO  CarsDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/Semestrul 4/MPP/Tema1-buna/temaLab3/cars.db} 
+18 Mar 2025 20:08:55,794 TRACE CarsDBRepository 81 add - Enter saving task () 
+18 Mar 2025 20:08:55,795 TRACE JdbcUtils 46 getConnection - Enter
+18 Mar 2025 20:08:55,795 TRACE JdbcUtils 23 getNewConnection - Enter
+18 Mar 2025 20:08:55,795 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Semestrul 4/MPP/Tema1-buna/temaLab3/cars.db
+18 Mar 2025 20:08:55,796 INFO  JdbcUtils 29 getNewConnection - user: null
+18 Mar 2025 20:08:55,796 INFO  JdbcUtils 30 getNewConnection - pass: null
+18 Mar 2025 20:08:56,133 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6a84a97d)
+18 Mar 2025 20:08:56,148 TRACE CarsDBRepository 88 add - Saved 1 instances
+18 Mar 2025 20:08:56,149 TRACE CarsDBRepository 94 add - Exit
+18 Mar 2025 20:08:56,149 TRACE JdbcUtils 46 getConnection - Enter
+18 Mar 2025 20:08:56,149 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6a84a97d)
+18 Mar 2025 20:08:56,152 TRACE CarsDBRepository 117 findAll - Enter
+18 Mar 2025 20:08:56,152 TRACE JdbcUtils 46 getConnection - Enter
+18 Mar 2025 20:08:56,152 TRACE JdbcUtils 23 getNewConnection - Enter
+18 Mar 2025 20:08:56,152 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Semestrul 4/MPP/Tema1-buna/temaLab3/cars.db
+18 Mar 2025 20:08:56,153 INFO  JdbcUtils 29 getNewConnection - user: null
+18 Mar 2025 20:08:56,153 INFO  JdbcUtils 30 getNewConnection - pass: null
+18 Mar 2025 20:08:56,155 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@10d307f1)
+18 Mar 2025 20:08:56,160 TRACE CarsDBRepository 137 findAll - Exit
+18 Mar 2025 20:08:56,165 TRACE CarsDBRepository 24 findByManufacturer - Enter
+18 Mar 2025 20:08:56,165 TRACE JdbcUtils 46 getConnection - Enter
+18 Mar 2025 20:08:56,166 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@10d307f1)
+18 Mar 2025 20:08:56,166 TRACE CarsDBRepository 45 findByManufacturer - Exit
+18 Mar 2025 20:09:14,109 INFO  CarsDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/Semestrul 4/MPP/Tema1-buna/temaLab3/cars.db} 
+18 Mar 2025 20:09:14,112 TRACE CarsDBRepository 81 add - Enter saving task () 
+18 Mar 2025 20:09:14,113 TRACE JdbcUtils 46 getConnection - Enter
+18 Mar 2025 20:09:14,113 TRACE JdbcUtils 23 getNewConnection - Enter
+18 Mar 2025 20:09:14,113 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Semestrul 4/MPP/Tema1-buna/temaLab3/cars.db
+18 Mar 2025 20:09:14,113 INFO  JdbcUtils 29 getNewConnection - user: null
+18 Mar 2025 20:09:14,113 INFO  JdbcUtils 30 getNewConnection - pass: null
+18 Mar 2025 20:09:14,340 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6a84a97d)
+18 Mar 2025 20:09:14,352 TRACE CarsDBRepository 88 add - Saved 1 instances
+18 Mar 2025 20:09:14,353 TRACE CarsDBRepository 94 add - Exit
+18 Mar 2025 20:09:14,353 TRACE JdbcUtils 46 getConnection - Enter
+18 Mar 2025 20:09:14,353 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6a84a97d)
+18 Mar 2025 20:09:14,358 TRACE CarsDBRepository 117 findAll - Enter
+18 Mar 2025 20:09:14,358 TRACE JdbcUtils 46 getConnection - Enter
+18 Mar 2025 20:09:14,358 TRACE JdbcUtils 23 getNewConnection - Enter
+18 Mar 2025 20:09:14,359 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Semestrul 4/MPP/Tema1-buna/temaLab3/cars.db
+18 Mar 2025 20:09:14,359 INFO  JdbcUtils 29 getNewConnection - user: null
+18 Mar 2025 20:09:14,359 INFO  JdbcUtils 30 getNewConnection - pass: null
+18 Mar 2025 20:09:14,362 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@14555e0a)
+18 Mar 2025 20:09:14,366 TRACE CarsDBRepository 137 findAll - Exit
+18 Mar 2025 20:09:14,374 TRACE CarsDBRepository 24 findByManufacturer - Enter
+18 Mar 2025 20:09:14,375 TRACE JdbcUtils 46 getConnection - Enter
+18 Mar 2025 20:09:14,376 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@14555e0a)
+18 Mar 2025 20:09:14,376 TRACE CarsDBRepository 45 findByManufacturer - Exit
+25 Mar 2025 18:42:22,017 INFO  CarsDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:D:/Semestrul 4/MPP/Tema1-buna/temaLab3/cars.db} 
+25 Mar 2025 18:42:22,045 TRACE CarsDBRepository 81 add - Enter saving task () 
+25 Mar 2025 18:42:22,045 TRACE JdbcUtils 46 getConnection - Enter
+25 Mar 2025 18:42:22,045 TRACE JdbcUtils 23 getNewConnection - Enter
+25 Mar 2025 18:42:22,046 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Semestrul 4/MPP/Tema1-buna/temaLab3/cars.db
+25 Mar 2025 18:42:22,046 INFO  JdbcUtils 29 getNewConnection - user: null
+25 Mar 2025 18:42:22,046 INFO  JdbcUtils 30 getNewConnection - pass: null
+25 Mar 2025 18:42:22,388 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6a84a97d)
+25 Mar 2025 18:42:22,398 TRACE CarsDBRepository 88 add - Saved 1 instances
+25 Mar 2025 18:42:22,399 TRACE CarsDBRepository 94 add - Exit
+25 Mar 2025 18:42:22,399 TRACE JdbcUtils 46 getConnection - Enter
+25 Mar 2025 18:42:22,400 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6a84a97d)
+25 Mar 2025 18:42:22,400 TRACE CarsDBRepository 117 findAll - Enter
+25 Mar 2025 18:42:22,400 TRACE JdbcUtils 46 getConnection - Enter
+25 Mar 2025 18:42:22,400 TRACE JdbcUtils 23 getNewConnection - Enter
+25 Mar 2025 18:42:22,401 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Semestrul 4/MPP/Tema1-buna/temaLab3/cars.db
+25 Mar 2025 18:42:22,401 INFO  JdbcUtils 29 getNewConnection - user: null
+25 Mar 2025 18:42:22,401 INFO  JdbcUtils 30 getNewConnection - pass: null
+25 Mar 2025 18:42:22,403 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@14555e0a)
+25 Mar 2025 18:42:22,407 TRACE CarsDBRepository 137 findAll - Exit
+25 Mar 2025 18:42:22,414 TRACE CarsDBRepository 24 findByManufacturer - Enter
+25 Mar 2025 18:42:22,414 TRACE JdbcUtils 46 getConnection - Enter
+25 Mar 2025 18:42:22,415 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@14555e0a)
+25 Mar 2025 18:42:22,415 TRACE CarsDBRepository 45 findByManufacturer - Exit
